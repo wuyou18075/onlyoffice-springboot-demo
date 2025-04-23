@@ -1,5 +1,5 @@
 
-此项目由VTEXS赞助的个人学习使用项目,非常感谢赞助[**VTEXS地址**](https://console.vtexs.com)
+此项目由VTEXS赞助的个人学习项目,非常感谢赞助[**VTEXS地址**](https://console.vtexs.com)
 
 # onlyoffice-springboot-demo
 springboot接入在线文档onlyoffice
