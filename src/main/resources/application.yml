@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: onlyoffice
+
+server:
+  port: 8010
+
+# MinIO配置
+minio:
+  endpoint: http://localhost:9000
+  access-key: admin
+  secret-key: admin123456
+  bucket-name: onlyoffice
+  secure: false
+
+# OnlyOffice配置
+onlyoffice:
+  #OnlyOffice服务地址
+  document-server-url: http://localhost:9631/
+  #OnlyOffice回调地址,自动保存用
+  callback-url: http://localhost:8010/api/onlyoffice/callback
+  #OnlyOffice下载文件地址
+  file-url-prefix: http://localhost:8010/api/onlyoffice/files/
